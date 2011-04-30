@@ -14,7 +14,8 @@
   "buildbot": {
     "url": "http://localhost:8000/change_hook/base",
     "username": null,
-    "password": null
+    "password": null,
+    "category": "pull_requests"
   },
   "filters": {
     "state": "open"
