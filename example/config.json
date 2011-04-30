@@ -12,10 +12,16 @@
     "repository": "myrepo"
   },
   "buildbot": {
-    "url": "http://localhost:8000/change_hook/base",
+    "host": "localhost",
+    "port": "8000",
+    "secure": false,
     "username": null,
     "password": null,
-    "category": "pull_requests"
+
+    "change_hook_path": "change_hook/base",
+    "category": "pull_requests",
+
+    "builder": "some-builder-which-will-build-pull-requests"
   },
   "filters": {
     "state": "open"
