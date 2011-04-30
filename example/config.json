@@ -1,0 +1,22 @@
+{
+  "general": {
+    "poll_interval": 120000,
+  },
+  "templates"": {
+    "comment_success": "Branch %s has been successfully built. Details can be viewed at %s."
+    "comment_failure": "Branch %s build failed. Fix it! %s. Details can be viewed at %s."
+  },
+  "github": {
+    "username": "foobar",
+    "token": "barfoo",
+    "repository": "myrepo"
+  },
+  "buildbot": {
+    "url": "http://localhost:8000/change_hook/base",
+    "username": null,
+    "password": null
+  },
+  "filters": {
+    "state": "open"
+  }
+}
