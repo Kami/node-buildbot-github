@@ -1,6 +1,6 @@
 {
   "name": "buildbot-github",
-  "description": "A module which periodically polls Github API for open pull requests and triggers a buildbot build on a new open pull request.",
+  "description": "A module which periodically polls Github API for open pull requests and triggers a Buildbot build when a new pull request is found.",
   "version": "0.1.0",
   "author": "Tomaz Muraus <tomaz+npm@cloudkick.com> http://www.tomaz.me",
   "keywords": [ "github", "git", "buildbot" ],
