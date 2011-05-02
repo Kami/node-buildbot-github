@@ -1,15 +1,18 @@
 {
   "general": {
-    "poll_interval": 120000,
+    "github_poll_interval": 120000,
+    "buildbot_poll_interval": 120000
   },
-  "templates"": {
-    "comment_success": "Branch %s has been successfully built. Details can be viewed at %s."
+  "templates": {
+    "comment_success": "Branch %s has been successfully built. Details can be viewed at %s.",
     "comment_failure": "Branch %s build failed. Fix it! %s. Details can be viewed at %s."
   },
   "github": {
     "username": "foobar",
     "token": "barfoo",
-    "repository": "myrepo"
+    "user": "someuser",
+    "project": "myrepo",
+    "repository": "http://github.com/user/some-repo"
   },
   "buildbot": {
     "host": "localhost",
@@ -21,9 +24,6 @@
     "change_hook_path": "change_hook/base",
     "category": "pull_requests",
 
-    "builder": "some-builder-which-will-build-pull-requests"
-  },
-  "filters": {
-    "state": "open"
+    "builder_name": "some-builder-which-will-build-pull-requests"
   }
 }
