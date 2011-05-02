@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+var argv = require('optimist');
+
+var run = require('../lib/run');
+
+var argv = argv.usage('Usage: $0 -config [config.json]')
+                .demand(['config'])
+                .argv;
+
+try {
+  run.run(argv.config);
+}
+catch (err) {
+  console.log(err.message);
+  process.exit(1);
+}
