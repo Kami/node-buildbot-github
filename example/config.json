@@ -4,8 +4,8 @@
     "buildbot_poll_interval": 120000
   },
   "templates": {
-    "comment_success": "Branch %s has been successfully built. Details can be viewed at %s.",
-    "comment_failure": "Branch %s build failed. Fix it! %s. Details can be viewed at %s."
+    "comment_success": "Branch `${branch}` has been successfully built. Details can be viewed at ${build_url}.",
+    "comment_failure": "Branch `${branch}` build failed. Fix it!. Details can be viewed at ${build_url}."
   },
   "github": {
     "username": "foobar",
