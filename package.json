@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "github": "= 0.0.6",
-    "logmagic": ">= 0.1.1",
+    "logmagic": ">= 0.1.4",
     "optimist": "= 0.1.9",
     "async": ">= 0.1.4",
     "sprintf": ">= 0.1.1"
