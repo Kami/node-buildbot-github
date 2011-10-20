@@ -1,7 +1,6 @@
 {
   "general": {
-    "github_poll_interval": 120000,
-    "buildbot_poll_interval": 120000
+    "trigger_string": "build it."
   },
   "templates": {
     "comment_success": "Branch `${branch}` has been successfully built. Details can be viewed at ${build_url}.",
@@ -25,5 +24,11 @@
     "category": "pull_requests",
 
     "builder_name": "some-builder-which-will-build-pull-requests"
+  },
+  "webserver": {
+    "ip": "0.0.0.0",
+    "port": 8789,
+    "secret": "y0urSecr3t"
+    "secret": "sekret!"
   }
 }
