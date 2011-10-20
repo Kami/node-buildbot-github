@@ -1,0 +1,141 @@
+{
+  "number": 2,
+  "sender": {
+    "gravatar_id": "8c3eeed949c64ad62e4e36cde41f2b0e",
+    "url": "https://api.github.com/users/Kami",
+    "id": 125088,
+    "login": "Kami",
+    "avatar_url": "https://secure.gravatar.com/avatar/8c3eeed949c64ad62e4e36cde41f2b0e?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+  },
+  "pull_request": {
+    "user": {
+      "gravatar_id": "8c3eeed949c64ad62e4e36cde41f2b0e",
+      "url": "https://api.github.com/users/Kami",
+      "id": 125088,
+      "login": "Kami",
+      "avatar_url": "https://secure.gravatar.com/avatar/8c3eeed949c64ad62e4e36cde41f2b0e?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "head": {
+      "user": {
+        "gravatar_id": "8c3eeed949c64ad62e4e36cde41f2b0e",
+        "url": "https://api.github.com/users/Kami",
+        "id": 125088,
+        "login": "Kami",
+        "avatar_url": "https://secure.gravatar.com/avatar/8c3eeed949c64ad62e4e36cde41f2b0e?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+      },
+      "repo": {
+        "name": "test-repo",
+        "watchers": 1,
+        "updated_at": "2011-10-20T18:34:09Z",
+        "size": 108,
+        "ssh_url": "git@github.com:Kami/test-repo.git",
+        "language": null,
+        "clone_url": "https://github.com/Kami/test-repo.git",
+        "pushed_at": "2011-10-20T18:34:09Z",
+        "private": false,
+        "url": "https://api.github.com/repos/Kami/test-repo",
+        "svn_url": "https://svn.github.com/Kami/test-repo",
+        "id": 2614800,
+        "description": "",
+        "forks": 1,
+        "git_url": "git://github.com/Kami/test-repo.git",
+        "fork": false,
+        "homepage": "",
+        "owner": {
+          "gravatar_id": "8c3eeed949c64ad62e4e36cde41f2b0e",
+          "url": "https://api.github.com/users/Kami",
+          "id": 125088,
+          "login": "Kami",
+          "avatar_url": "https://secure.gravatar.com/avatar/8c3eeed949c64ad62e4e36cde41f2b0e?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+        },
+        "open_issues": 2,
+        "html_url": "https://github.com/Kami/test-repo",
+        "master_branch": null,
+        "created_at": "2011-10-20T17:25:33Z"
+      },
+      "sha": "0455338113013a51d8369e5fe8ab8f41490dca78",
+      "ref": "test-branch",
+      "label": "Kami:test-branch"
+    },
+    "updated_at": "2011-10-20T18:34:09Z",
+    "changed_files": 1,
+    "merged": false,
+    "body": "doit",
+    "comments": 0,
+    "title": "commit 2.",
+    "number": 2,
+    "diff_url": "https://github.com/Kami/test-repo/pull/2.diff",
+    "merged_by": null,
+    "url": "https://api.github.com/repos/Kami/test-repo/pulls/2",
+    "id": 419567,
+    "additions": 1,
+    "commits": 1,
+    "closed_at": null,
+    "patch_url": "https://github.com/Kami/test-repo/pull/2.patch",
+    "mergeable": true,
+    "deletions": 0,
+    "html_url": "https://github.com/Kami/test-repo/pull/2",
+    "issue_url": "https://github.com/Kami/test-repo/issues/2",
+    "state": "open",
+    "base": {
+      "user": {
+        "gravatar_id": "8c3eeed949c64ad62e4e36cde41f2b0e",
+        "url": "https://api.github.com/users/Kami",
+        "id": 125088,
+        "login": "Kami",
+        "avatar_url": "https://secure.gravatar.com/avatar/8c3eeed949c64ad62e4e36cde41f2b0e?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+      },
+      "repo": {
+        "name": "test-repo",
+        "watchers": 1,
+        "updated_at": "2011-10-20T18:34:09Z",
+        "size": 108,
+        "ssh_url": "git@github.com:Kami/test-repo.git",
+        "language": null,
+        "clone_url": "https://github.com/Kami/test-repo.git",
+        "pushed_at": "2011-10-20T18:34:09Z",
+        "private": false,
+        "url": "https://api.github.com/repos/Kami/test-repo",
+        "svn_url": "https://svn.github.com/Kami/test-repo",
+        "id": 2614800,
+        "description": "",
+        "forks": 1,
+        "git_url": "git://github.com/Kami/test-repo.git",
+        "fork": false,
+        "homepage": "",
+        "owner": {
+          "gravatar_id": "8c3eeed949c64ad62e4e36cde41f2b0e",
+          "url": "https://api.github.com/users/Kami",
+          "id": 125088,
+          "login": "Kami",
+          "avatar_url": "https://secure.gravatar.com/avatar/8c3eeed949c64ad62e4e36cde41f2b0e?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+        },
+        "open_issues": 2,
+        "html_url": "https://github.com/Kami/test-repo",
+        "master_branch": null,
+        "created_at": "2011-10-20T17:25:33Z"
+      },
+      "sha": "b3a882d0d483148115c9a6a92bac5270ecd46575",
+      "ref": "master",
+      "label": "Kami:master"
+    },
+    "merged_at": null,
+    "created_at": "2011-10-20T18:34:09Z"
+  },
+  "repository": {
+    "name": "test-repo",
+    "updated_at": "2011-10-20T18:34:09Z",
+    "pushed_at": "2011-10-20T18:34:09Z",
+    "url": "https://api.github.com/repos/Kami/test-repo",
+    "id": 2614800,
+    "owner": {
+      "gravatar_id": "8c3eeed949c64ad62e4e36cde41f2b0e",
+      "url": "https://api.github.com/users/Kami",
+      "id": 125088,
+      "login": "Kami",
+      "avatar_url": "https://secure.gravatar.com/avatar/8c3eeed949c64ad62e4e36cde41f2b0e?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "created_at": "2011-10-20T17:25:33Z"
+  },
+  "action": "opened"
+}
