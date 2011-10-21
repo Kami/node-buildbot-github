@@ -14,14 +14,14 @@ Configuration is stored in a JSON file. Example configuration can be found at
 
 # Buildbot Configuration
 
-1. Enable `base` change_hook dialect in your `master.cfg`. For example:
+### Enable `base` change_hook dialect in your `master.cfg`. For example:
 
 ```python
 c['status'].append(html.WebStatus(http_port=8010, allowForce=True,
                                    change_hook_dialects={'base': True}))
 ```
 
-2. Set up a separate builder for the pull requests. For example:
+### Set up a separate builder for the pull requests. For example:
 
 ```python
 f = factory.BuildFactory()
@@ -36,7 +36,7 @@ c['builders'].append(
 })
 ```
 
-3. Set up `ChangeFilter` and `Scheduler`. For example
+### Set up `ChangeFilter` and `Scheduler`. For example
 
 ```python
 change_filter = ChangeFilter(repository='https://github.com/<repository user>/<repository name>')
