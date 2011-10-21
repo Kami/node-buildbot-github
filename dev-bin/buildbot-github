@@ -1,0 +1,4 @@
+#!/bin/sh
+
+basedir=`dirname $0`
+$basedir/../node_modules/node-dev/node-dev $basedir/../bin/buildbot-github $@
