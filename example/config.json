@@ -4,14 +4,15 @@
   },
   "templates": {
     "comment_success": "Branch `${branch}` has been successfully built. Details can be viewed at ${build_url}.",
-    "comment_failure": "Branch `${branch}` build failed. Fix it!. Details can be viewed at ${build_url}."
+    "comment_failure": "Branch `${branch}` build failed. Details can be viewed at ${build_url}. @{nickname} fix it!"
   },
   "github": {
-    "username": "foobar",
-    "token": "barfoo",
-    "user": "someuser",
-    "project": "myrepo",
-    "repository": "http://github.com/user/some-repo"
+    "username": "<bot username>",
+    "token": "<bot api token>",
+
+    "user": "<repository user>",
+    "project": "<project name>",
+    "repository": "https://github.com/<repository user>/<repository name>"
   },
   "buildbot": {
     "host": "localhost",
@@ -20,15 +21,14 @@
     "username": null,
     "password": null,
 
-    "change_hook_path": "change_hook/base",
-    "category": "pull_requests",
-
-    "builder_name": "some-builder-which-will-build-pull-requests"
+    "change_hook_path": "/change_hook/base",
+    "category": "pull-requests",
+    "builder_name": "<some-builder-which-will-build-pull-requests>",
+    "num_builds": 30
   },
   "webserver": {
     "ip": "0.0.0.0",
     "port": 8789,
     "secret": "y0urSecr3t"
-    "secret": "sekret!"
   }
 }
