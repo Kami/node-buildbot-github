@@ -15,6 +15,11 @@ if (optimist.argv.version || optimist.argv.v) {
   process.exit(0)
 }
 
+if (optimist.argv.help || optimist.argv.h) {
+  util.puts('For help please refer to README.md');
+  process.exit(0)
+}
+
 var argv = optimist.demand(['config']).argv;
 
 try {
