@@ -4,7 +4,9 @@
   },
   "templates": {
     "comment_success": "Branch `${branch}` has been successfully built. Details can be viewed at ${build_url}.",
-    "comment_failure": "Branch `${branch}` build failed. Details can be viewed at ${build_url}. @{nickname} fix it!"
+    "comment_failure": "Branch `${branch}` build failed. Details can be viewed at ${build_url}. @{nickname} fix it!",
+    "images_success": [],
+    "images_failure": []
   },
   "github": {
     "username": "<bot username>",
