@@ -1,7 +1,7 @@
 {
   "name": "buildbot-github",
   "description": "A module which periodically polls Github API for open pull requests and triggers a Buildbot build when a new pull request is found.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Tomaz Muraus <tomaz+npm@cloudkick.com> http://www.tomaz.me",
   "keywords": [ "github", "git", "buildbot" ],
   "homepage": "https://github.com/Kami/node-buildbot-github",
@@ -10,11 +10,10 @@
     "url": "git://github.com/Kami/node-buildbot-github.git"
   },
   "modules": {
-    "whiskey": "./lib/github_buildbot"
+    "github_buildbot": "./lib/github_buildbot"
   },
   "directories": {
     "lib": "./lib",
-    "example": "./example",
     "bin": "./bin"
   },
   "scripts": {
