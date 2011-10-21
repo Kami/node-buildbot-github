@@ -2,7 +2,7 @@
 
 A service which receives webhook events when a comment is added to a pull
 request and triggers a [Buildbot](http://trac.buildbot.net/) build when a
-comment with trigger string defined in a config is found.
+comment with trigger string defined in a config is found in a pull request.
 
 A comment with build status and a link to the build result is added to the
 pull request when a build has completed.
