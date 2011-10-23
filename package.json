@@ -1,7 +1,7 @@
 {
   "name": "buildbot-github",
   "description": "A module which listens for Github webhook events and triggers a Buildbot build when a comment with trigger string defined in a config is found in a pull request.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Tomaz Muraus <tomaz+npm@cloudkick.com> http://www.tomaz.me",
   "keywords": [ "github", "git", "buildbot" ],
   "homepage": "https://github.com/Kami/node-buildbot-github",
