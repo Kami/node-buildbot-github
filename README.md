@@ -53,7 +53,7 @@ in the config file.
 # Github Webhook notifications
 
 ```bash
-curl -u "<github username>/token:<api token>" -H "Content-Type: application/json" -X POST -d '{
+curl -u "<github username>/<github password>" -H "Content-Type: application/json" -X POST -d '{
  "name": "web",
   "active": true,
   "events": ["issue_comment"],
