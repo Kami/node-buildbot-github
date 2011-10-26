@@ -39,7 +39,8 @@ c['builders'].append(
 ### Set up `ChangeFilter` and `Scheduler`. For example
 
 ```python
-change_filter = ChangeFilter(repository='https://github.com/<repository user>/<repository name>')
+change_filter = ChangeFilter(repository='https://github.com/<repository user>/<repository name>',
+                             category='<category specified in the config>')
 scheduler = basic.Scheduler("pull request builder", treeStableTimer=1,
                            builderNames=['<some-builder-which-will-build-pull-requests>'],
                            change_filter=change_filter)
