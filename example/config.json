@@ -1,6 +1,7 @@
 {
   "general": {
-    "trigger_string": "build it."
+    "trigger_string": "build it.",
+    "build_cache_size": "20"
   },
   "templates": {
     "comment_success": "Branch `${branch}` has been successfully built. Details can be viewed at ${build_url}.",
