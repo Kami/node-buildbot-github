@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/Kami/node-buildbot-github.png)](http://travis-ci.org/Kami/node-buildbot-github)
 # Buildbot Github
 
 A service which receives webhook events when a comment is added to a pull
