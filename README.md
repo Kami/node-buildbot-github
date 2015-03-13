@@ -10,7 +10,7 @@ pull request when a build has completed.
 # Service Configuration
 
 Configuration is stored in a JSON file. Example configuration can be found at
-`axample/config.json`.
+`example/config.json`.
 
 # Buildbot Configuration
 
